@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    display: grid;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    color: #333;
+    flex-direction: column;
+}
+
+
+/* body*/
+
+nav {
+	margin: 0 auto 2rem;
+	max-width: 90vw;
+    border: 2px solid #333;
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #333;
+    margin: auto;
+
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+
+}
+
+nav ul {
+  list-style: none;   /* removes bullets */
+  margin: 0;          /* removes default margin */
+  padding: 0;         /* removes default padding */
+  display: flex;      /* makes them sit in a row */
+  gap: 1rem;          /* space between links */
+}
+
+nav ul li a {
+  text-decoration: none; /* removes underline */
+  color: white;          /* change to match my theme */
+  font-weight: bold;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: rgb(47, 79, 79);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+nav ul {
+    display:flex;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+	margin: 1rem;
+	border: 1px solid rgb(0 0 0 / .2);
+	padding: 1rem;
+	background-color: #eee;
+}
+
+.card1 {
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid rgb(107, 34, 107);
+}
