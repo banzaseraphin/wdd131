@@ -102,19 +102,24 @@ nav ul {
 }
 
 .card1 {
-    background-color: lightgray;
+    background-color: rgb(253, 253, 253);
     padding: 100px;
-    border: 1px solid rgb(107, 34, 107);
+    border: 1px solid rgb(2, 2, 2);
     margin-right: 1rem;
     grid-column-start: 1;
     grid-column-end: 2;
+    height: 100%;
+    width: 100%;
 }
 
 .card1 h1 {
     text-align: center;
+    color: white;
     margin-bottom: 1rem;
-    padding-top: -1%;
+    padding-top: 0;
     padding-bottom: 1rem;
+    border: 1px solid #272627;
+    background-color: rgb(47, 79, 79);
 }
 
 .card2 {
