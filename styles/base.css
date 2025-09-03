@@ -86,15 +86,28 @@ nav ul {
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
 	margin: 1rem;
 	border: 1px solid rgb(0 0 0 / .2);
 	padding: 1rem;
-	background-color: #eee;
+	background-color: #eee; 
+    border-radius: 1px;
+    border-width: 1px;
 }
 
 .card1 {
     background-color: lightgray;
-    padding: 20px;
+    padding: 100px;
     border: 1px solid rgb(107, 34, 107);
+    margin-right: 1rem;
+    grid-column-start: 1;
+    
+    
 }
+
+.card2 {
+    background-color: lightblue;
+    padding: 100px;
+    border: 1px solid rgb(34, 107, 107);
+}
+
