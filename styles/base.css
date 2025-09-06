@@ -75,7 +75,7 @@ footer{
   color: white;
   text-align: center;
   margin-top: 115px;
-  padding: 30px;
+  padding: 10px;
 }
 
 
@@ -84,6 +84,10 @@ nav ul {
 }
 
 /* Main Page Layout */
+
+main {
+    flex: 1;
+}
 .container {
     font-family: 'Roboto', sans-serif;
   display: grid;
