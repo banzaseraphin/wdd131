@@ -3,20 +3,40 @@
 
 /*header*/
 header {
+    display: block;
     background-color: #6a0297;
-    padding: 20px 0;
-    text-align: center;
+    padding: 40px 0;
     border-bottom: 2px solid #ccc;
+}
+header h1 {
+    color: white;
+    text-align: left;
+    margin: 0;
+    font-size: 2.5em;
+
+}
+
+
+.topnav{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+.topnav a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+.topnav a:hover {
+    background-color: #5a0080;
 }
 
 
 
-
 /*main*/
-main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+h1.album-header{
+    
 }
 
 
