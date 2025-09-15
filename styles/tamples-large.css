@@ -1,15 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap');
 
-main {
-    padding: 40px 0;
-    font-family: 'Unbounded', cursive;
-}
 
-main.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
+
+
+/*footer*
+
+<section class="gallery-container">
+            <h2 class="gallery-title">Home</h2>
+
+            <div class="gallery">
+                <figure><img src="images/kinshasa.jpeg" alt="Kinshasa">
+                <figcaption>Temple of Kinshasa</figcaption></figure>
+                <figure><img src="images/ghana.jpg" alt="Ghana">
+                <figcaption>Temple of Ghana</figcaption></figure>
+                <figure><img src="images/brezil.jpg" alt="Brazil">
+                <figcaption>Temple of Brazil</figcaption></figure>
+                <figure><img src="images/salt_lake_city.jpeg" alt="Salt Lake City">
+                <figcaption>Temple of Salt Lake City</figcaption></figure>
+                <figure><img src="images/south_africa.jpeg" alt="South Africa">
+                <figcaption>Temple of South Africa</figcaption></figure>
+                <figure><img src="images/ivory_coast.jpg" alt="Ivory Coast">
+                <figcaption>Temple of Ivory Coast</figcaption></figure>
+                <figure><img src="images/nigeria.jpg" alt="Nigeria">
+                <figcaption>Temple of Nigeria</figcaption></figure>
+                <figure><img src="images/kenya.jpg" alt="Kenya">
+                <figcaption>Temple of Kenya</figcaption></figure>
+                <figure><img src="images/mexico.jpg" alt="Mexico">
+                <figcaption>Temple of Mexico</figcaption></figure>
+            </div>
+        </section>/

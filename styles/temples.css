@@ -1,12 +1,23 @@
 /*head*/
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap');
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-container{
+    max-width: auto;
+    margin: 0 auto;
+}
+
 /*header*/
 header {
     display: block;
     background-color: #6a0297;
     padding: 40px 0;
     border-bottom: 2px solid #ccc;
+    max-width: auto;
 }
 header h1 {
     color: white;
@@ -35,10 +46,33 @@ header h1 {
 
 
 /*main*/
-h1.album-header{
-    
+
+.sub-title {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 20px 0;
+    font-family: 'Unbounded', cursive;
+}
+.picture {
+    background-color: rgb(188, 70, 70);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 250px;
+    gap: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.grid-container div {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 
 /*footer*/
@@ -50,5 +84,7 @@ footer {
     border-top: 2px solid #ccc;
     position: relative;
     bottom: 0;
+    top: 0%;
     width: 100%;
+    max-width: auto;
 }
