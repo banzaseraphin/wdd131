@@ -9,8 +9,6 @@ body {
 }
 
 
-
-
 /* body*/
 
 nav {
@@ -31,6 +29,7 @@ h1{
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    margin-left: 20px;
 }
 
 .menu{
@@ -44,8 +43,9 @@ h1{
 
 nav ul {
   list-style: none;   /* removes bullets */
-  margin: 0;          /* removes default margin */
-  padding: 0;         /* removes default padding */
+  margin-bottom: 1rem;          /* removes default margin */
+  padding-bottom: 1rem;
+  padding-top: 1rem;         /* removes default padding */
   display: flex;      /* makes them sit in a row */
   gap: 1rem;          /* space between links */
 }
