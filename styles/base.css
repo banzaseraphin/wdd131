@@ -89,6 +89,7 @@ nav ul {
 /* Main Page Layout */
 
 main {
+    max-width: 800px;
     flex: 1;
     display: grid;
 }
