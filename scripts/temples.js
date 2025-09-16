@@ -1,4 +1,3 @@
-document.getElementById("lastModified").textContent = "Last Modified: " + document.lastModified;
 // Current year
 document.getElementById("year").textContent = new Date().getFullYear();
 
