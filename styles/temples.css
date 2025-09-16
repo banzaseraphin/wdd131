@@ -7,7 +7,7 @@ html, body {
 }
 
 .page-container{
-    max-width: auto;
+    max-width: 1900px;
     margin: 0 auto;
 }
 
@@ -15,34 +15,42 @@ html, body {
 header {
     display: block;
     background-color: #6a0297;
-    padding: 40px 0;
+    padding: 30px 0;
     border-bottom: 2px solid #ccc;
     max-width: auto;
 }
-header h1 {
+.page-title {
+    display: block;
     color: white;
     text-align: left;
-    margin: 0;
     font-size: 2.5em;
-
-}
-
-
-.topnav{
     position: absolute;
-    top: 50px;
-    right: 20px;
+    left: 20px;
+    top: 10px;
 }
-.topnav a {
+
+
+nav ul {
+    list-style: none;   
+    margin: 0;          
+    padding: 0;         
+    display: flex;
+    justify-content: right;      
+    gap: 1rem; 
+}
+nav ul li a {
     color: white;
     text-decoration: none;
-    padding: 14px 20px;
+    padding: 13px 20px;
     display: inline-block;
     font-size: 20px;
     font-weight: bold;
+    border-radius: 4px;
+
 }
-.topnav a:hover {
-    background-color: #5a0080;
+nav ul li a:hover {
+    background-color: #f8f7f8;
+    color: #440163;
 }
 
 
