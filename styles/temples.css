@@ -1,6 +1,13 @@
 /*head*/
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap');
 
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+
 html, body {
     margin: 0;
     padding: 0;
