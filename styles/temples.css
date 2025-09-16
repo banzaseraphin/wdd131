@@ -58,7 +58,7 @@ nav ul li a:hover {
 .nav-menu ul {
   display: none;
 }
-#nav-menu.open ul {
+.nav-menu.open ul {
   display: block;
 }
 
