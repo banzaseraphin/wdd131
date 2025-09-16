@@ -24,7 +24,7 @@ header {
     background-color: #6a0297;
     padding: 30px 0;
     border-bottom: 2px solid #ccc;
-    max-width: auto;
+    max-width: 2000px;
 }
 .page-title {
     display: block;
@@ -102,5 +102,5 @@ footer {
     bottom: 0;
     top: 0%;
     width: 100%;
-    max-width: auto;
+    max-width: 2000px;
 }
