@@ -108,7 +108,7 @@ body{
     padding: 15px;
     margin: 20px 0;
     border-radius: 5px;
-    width: 35%;
+    width: 34%;
     margin-left: 20px;
 }
 .weathersection {
@@ -135,7 +135,7 @@ h2{
     display: inline-block;           /* makes the box wrap the content */
     background-color: #6a7cd7;       /* box background */
     color: white;                     /* text color */
-    padding: 15px 130px;   
+    padding: 15px 180px;   
     margin-left: -1.4em;                 /* padding inside the box */
     margin-top: -0.2em;
     border-radius: 5px;              /* rounded corners */
