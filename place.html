@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place</title>
+    <link rel="stylesheet" href="styles/place.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/flag.png" alt="DRC Flag" class="flag" width="70" height="auto">
+        <h1 class="title">The Democratic Republic of Congo</h1>
+    </header>
+    
+    <main>
+        <section class="data-box">
+            <div class="data-container">
+                <h2>Data</h2>
+            </div>
+            <dl>
+                <dt>Area:</dt><dd>2,344,858 sq km</dd>
+                <dt>Population:</dt><dd>95 million (2023 estimate)</dd>
+                <dt>Capital:</dt><dd>Kinshasa</dd>
+                <dt>Official Language:</dt><dd>French</dd>
+                <dt>Currency:</dt><dd>Congolese Franc (CDF)</dd>
+                <dt>Time Zone:</dt><dd>West Africa Time (WAT)</dd>
+                <dt>Calling Code:</dt><dd>+243</dd>
+                <dt>Internet TLD:</dt><dd>.cd</dd>
+            </dl>
+        </section>
+        <section class="weathersection">
+            <div class="weather-container">
+                <h2 class="weatherheader">Weather</h2>
+                <img src="images/weather.png" alt="Sunny" class="weather-icon" width="60" height="auto">
+            </div>
+            <div class="weatherBox">
+                <p class="details"><strong>Temperature:</strong> <span id="temperature">5°C</span></p>
+                <p class="details"><strong>Conditions:</strong> <span id="conditions">Sunny</span></p>
+                <p class="details"><strong>Wind:</strong> <span id="windSpeed">20 km/h</span></p>
+                <p class="details"><strong>Wind Chill:</strong> <span id="windChill">Calculating...</span></p>
+            </div>
+        </section>
+        <script src="scripts/place.js"></script>
+    </main>
+    <footer>
+        <p>&copy; 2025 🌍 Seraphin Banza Kiongo 🌍 DRC</p>
+        <p id="modified"></p>
+    </footer>
+        <script>document.getElementById("modified").innerHTML = "Last updated: " + document.lastModified;</script>
+    
+</body>
+</html>
