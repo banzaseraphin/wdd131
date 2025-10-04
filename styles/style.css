@@ -1,6 +1,12 @@
 :root {
     --main-color: #d7ab6a;
     --secondary-color: #6a7cd7;
+    --accent-color: #b80d01;        /* Header border/hover accent */
+    --text-color-light: white;      /* Light text */
+    --font-large: 50px;             /* Titles */
+    --font-medium: 36px;            /* Headings */
+    --font-small: 20px;             /* Body text / details */
+    
 }
 
 
@@ -8,7 +14,7 @@ header, footer {
     background-color: var(--main-color);
     padding: 20px;
     text-align: center;  /* centers text */
-    color: white;
+    color: var(--text-color-light);
     margin-top: 0;        /* corrected */
 }
 
@@ -21,7 +27,7 @@ header, footer {
 
 
 header{
-    border-bottom: 20px solid rgb(184, 13, 1);
+    border-bottom: 20px solid var(--accent-color);
 }
 header {
     display: flex;
