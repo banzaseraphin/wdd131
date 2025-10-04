@@ -6,6 +6,7 @@
     --font-large: 50px;             /* Titles */
     --font-medium: 36px;            /* Headings */
     --font-small: 20px;             /* Body text / details */
+    font-family: 'Roboto', sans-serif;
     
 }
 
