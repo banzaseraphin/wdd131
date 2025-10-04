@@ -1,4 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --main-color: #d7ab6a;
+    --secondary-color: #6a7cd7;
+}
+
 
 header, footer {
     background-color: #d7ab6a;
