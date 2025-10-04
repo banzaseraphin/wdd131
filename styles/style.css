@@ -9,9 +9,22 @@
     
 }
 
-@media only screen and (min-width: 32rem) {
-  body {
-    font-size: 18px; /* example change for larger screens */
+/* Responsive adjustments for smaller screens */
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 30px; /* smaller title on mobile */
+  }
+
+  .data-box,
+  .weathersection {
+    width: 90%;   /* make boxes fit smaller screens */
+    margin: 10px auto;
   }
 }
 
