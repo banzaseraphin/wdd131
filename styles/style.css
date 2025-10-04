@@ -1,40 +1,13 @@
-:root {
-    --main-color: #d7ab6a;
-    --secondary-color: #6a7cd7;
-    --accent-color: #b80d01;        /* Header border/hover accent */
-    --text-color-light: white;      /* Light text */
-    --font-large: 50px;             /* Titles */
-    --font-medium: 36px;            /* Headings */
-    --font-small: 20px;             /* Body text / details */
-    font-family: 'Roboto', sans-serif;
-    
-}
-
-/* Responsive adjustments for smaller screens */
-@media only screen and (max-width: 600px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .title {
-    font-size: 30px; /* smaller title on mobile */
-  }
-
-  .data-box,
-  .weathersection {
-    width: 90%;   /* make boxes fit smaller screens */
-    margin: 10px auto;
-  }
-}
-
-
 body {
+  --main-color: #d7ab6a;
+  --secondary-color: #6a7cd7;
+  --accent-color: #b80d01;        /* Header border/hover accent */
+  --text-color-light: white;      /* Light text */
+  --font-large: 50px;             /* Titles */
+  --font-medium: 36px;            /* Headings */
+  --font-small: 20px;             /* Body text / details */
   font-family: 'Roboto', sans-serif;
 }
-
-
 
 header, footer {
     background-color: var(--main-color);
@@ -50,7 +23,6 @@ header, footer {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
 }
-
 
 header{
     border-bottom: 20px solid var(--accent-color);
@@ -88,10 +60,6 @@ header:hover::after {
     width: 100%;
 }
 
-
-
-
-
 .flag{
     width: 100px;
     height: auto;
@@ -102,7 +70,6 @@ header:hover::after {
     transform: scale(1.1);
     transition: transform 0.3s ease;
 }
-
 
 .title{
     display: block;
@@ -128,9 +95,6 @@ footer p {
     font-size: 20px; /* smaller than main body text if needed */
     text-align: center;
 }
-
-
-
 
 body{
     background-image: url(../images/okapi.jpg);
@@ -213,8 +177,6 @@ h2{
     margin-left: 10px; /* space between icon and text */
 }
 
-
-
 dl{
     display: grid;
     grid-template-columns: 140px auto;
@@ -238,7 +200,6 @@ dd {
     box-sizing: border-box; /* ensures padding doesn't increase total size */
 }
 
-
 .details {
     display: grid;
     grid-template-columns: 140px auto;
@@ -257,5 +218,3 @@ span{
     padding-left: 10px;
     font-size: 20px;
 }
-
-
