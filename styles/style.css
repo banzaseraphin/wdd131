@@ -5,7 +5,7 @@
 
 
 header, footer {
-    background-color: #d7ab6a;
+    background-color: var(--main-color);
     padding: 20px;
     text-align: center;  /* centers text */
     color: white;
@@ -86,7 +86,7 @@ header:hover::after {
 }
 
 footer {        
-    background-color: #d7ab6a;
+    background-color: var(--main-color);
     color: white;
 }
 
@@ -139,7 +139,7 @@ h2{
 
 .data-container {
     display: inline-block;           /* makes the box wrap the content */
-    background-color: #6a7cd7;       /* box background */
+    background-color: var(--secondary-color);       /* box background */
     color: white;                     /* text color */
     padding: 15px 180px;   
     margin-left: -1.4em;                 /* padding inside the box */
@@ -159,7 +159,7 @@ h2{
 .weather-container {
     display: flex;
     align-items: center;           /* makes the box wrap the content */
-    background-color: #6a7cd7;       /* box background */
+    background-color: var(--secondary-color);       /* box background */
     color: white;                     /* text color */
     padding: 15px 100px;   
     margin-left: -1.2em;                 /* padding inside the box */
