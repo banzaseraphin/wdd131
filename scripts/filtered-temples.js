@@ -111,11 +111,11 @@ function filterTemples(criteria) {
 }
 
 // Event listeners for buttons
-document.getElementById("homeBtn").addEventListener("click", () => displayTemples(filterTemples("home")));
-document.getElementById("oldBtn").addEventListener("click", () => displayTemples(filterTemples("old")));
-document.getElementById("newBtn").addEventListener("click", () => displayTemples(filterTemples("new")));
-document.getElementById("largeBtn").addEventListener("click", () => displayTemples(filterTemples("large")));
-document.getElementById("smallBtn").addEventListener("click", () => displayTemples(filterTemples("small")));
+document.getElementById("homeLink").addEventListener("click", () => displayTemples(filterTemples("home")));
+document.getElementById("oldLink").addEventListener("click", () => displayTemples(filterTemples("old")));
+document.getElementById("newLink").addEventListener("click", () => displayTemples(filterTemples("new")));
+document.getElementById("largeLink").addEventListener("click", () => displayTemples(filterTemples("large")));
+document.getElementById("smallLink").addEventListener("click", () => displayTemples(filterTemples("small")));
 
 // Initial display
 displayTemples(temples);
