@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0 0 0.5rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav ul li button {
+    background-color: white;
+    color: #003366;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav ul li button:hover {
+    background-color: #0055aa;
+    color: white;
+}
+
+.temples-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.temple-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.temple-card h2 {
+    margin: 0.5rem 0;
+}
+
+.temple-card p {
+    margin: 0.3rem 0;
+    font-size: 0.9rem;
+}

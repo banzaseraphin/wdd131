@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtered Temples</title>
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+</head>
+<body>
+    <header>
+        <h1>Temple Picture Album</h1>
+        <nav>
+            <ul>
+                <li><button id="homeBtn">Home</button></li>
+                <li><button id="oldBtn">Old</button></li>
+                <li><button id="newBtn">New</button></li>
+                <li><button id="largeBtn">Large</button></li>
+                <li><button id="smallBtn">Small</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="templesContainer" class="temples-container">
+            <!-- Temple cards will be dynamically generated here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Your Name | Last Modified: <span id="lastModified"></span></p>
+    </footer>
+
+    <script src="scripts/filtered-temples.js"></script>
+</body>
+</html>
