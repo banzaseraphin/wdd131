@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Submitted</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script>
+    window.addEventListener("load", () => {
+      let count = localStorage.getItem("reviewCount") || 0;
+      count++;
+      localStorage.setItem("reviewCount", count);
+      document.getElementById("count").textContent = count;
+    });
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Thank You!</h1>
+  </header>
+
+  <main>
+    <p>Your review has been submitted successfully.</p>
+    <p>You have submitted <strong><span id="count">0</span></strong> reviews.</p>
+    <a href="form.html">Submit another review</a>
+  </main>
+
+  <footer>
+    <p>©2025 🌸 Banza Kiongo Seraphin<br>D.R Congo<br>
+    Last Modification: 02/26/2024 13:56:10</p>
+  </footer>
+</body>
+</html>
