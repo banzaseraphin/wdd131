@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #B87333;
+  --accent-color: #124E8C;
+  --muted: #6b7280;
+  --bg: #f7fafc;
+  --card-bg: #ffffff;
+  --max-width: 1200px;
+  --heading-font: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --body-font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
+
+/* Global Styles */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: var(--body-font); background: var(--bg); color: #111827; line-height: 1.6; }
+a { text-decoration: none; color: var(--accent-color); }
+img { max-width: 100%; display: block; border-radius: 6px; }
+h1,h2,h3 { font-family: var(--heading-font); margin-bottom: 0.5rem; }
+
+/* Header */
+header { display: flex; align-items: center; justify-content: space-between; padding: 1rem 2rem; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.05); }
+nav a { margin-left: 1rem; font-weight: 600; }
+
+/* Hero Section */
+.hero { text-align: center; padding: 2rem 1rem; background: var(--card-bg); margin: 1rem 2rem; border-radius: 12px; box-shadow: 0 6px 18px rgba(17,24,39,0.06); }
+.hero h1 { color: var(--accent-color); font-size: 2rem; }
+.hero p { color: var(--muted); font-size: 1rem; }
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin: 1rem 0; }
+.filters input, .filters select { padding: 0.5rem; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+
+/* Cards Grid */
+.cards-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; padding: 1rem 2rem; }
+.card { background: var(--card-bg); border-radius: 12px; box-shadow: 0 6px 18px rgba(17,24,39,0.06); overflow: hidden; transition: transform 0.2s; }
+.card:hover { transform: translateY(-5px); }
+.card img { width: 100%; height: 180px; object-fit: cover; }
+.card-info { padding: 0.75rem 1rem; }
+.card-info h3 { color: var(--primary-color); }
+.card-info p { color: var(--muted); font-size: 0.9rem; margin: 0.25rem 0; }
+
+/* Contact Form */
+#contact-form { max-width: 600px; margin: 2rem auto; background: var(--card-bg); padding: 1.5rem; border-radius: 12px; box-shadow: 0 6px 18px rgba(17,24,39,0.06); }
+#contact-form label { display: block; margin: 0.5rem 0 0.25rem; font-weight: 600; }
+#contact-form input, #contact-form textarea, #contact-form select { width: 100%; padding: 0.5rem; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 0.75rem; font-size: 1rem; }
+#contact-form button { background: var(--primary-color); color: #fff; padding: 0.5rem 1rem; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: background 0.2s; }
+#contact-form button:hover { background: var(--accent-color); }
+#form-status { text-align: center; margin-top: 0.5rem; font-weight: 600; }
+
+/* References Section */
+#references { max-width: 700px; margin: 2rem auto; background: var(--card-bg); padding: 1rem 1.5rem; border-radius: 12px; box-shadow: 0 6px 18px rgba(17,24,39,0.06); }
+#references ul { padding-left: 1.2rem; }
+#references li { margin: 0.5rem 0; }
+
+/* Footer */
+footer { text-align: center; padding: 1rem; background: #fff; border-top: 1px solid #eee; color: var(--muted); margin-top: 2rem; }
+
+/* Responsive */
+@media(max-width: 768px) {
+  header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .filters { flex-direction: column; }
+  .hero { margin: 1rem; }
+  .cards-grid { padding: 1rem; }
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lubumbashi Eats & Stays — Listings</title>
+  <meta name="description" content="Browse restaurants and hotels in Lubumbashi.">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Lubumbashi Eats & Stays logo">
+        <defs>
+          <linearGradient id="g" x1="0" x2="1">
+            <stop offset="0" stop-color="#B87333"/>
+            <stop offset="1" stop-color="#124E8C"/>
+          </linearGradient>
+        </defs>
+        <rect rx="12" width="100" height="100" fill="url(#g)"/>
+        <g transform="translate(14,28)" fill="#fff" font-family="Poppins, sans-serif">
+          <text x="0" y="0" style="font-size:14px;font-weight:700">LUBUMBASHI</text>
+          <text x="0" y="18" style="font-size:10px;font-weight:600">EATS & STAYS</text>
+        </g>
+      </svg>
+    </div>
+    <nav style="margin-left:auto;">
+      <a href="index.html">Home</a> |
+      <a href="listings.html">Listings</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>All Restaurants & Hotels</h1>
+      <p>Explore the top places to eat and stay in Lubumbashi. Use the filters or buttons to find your perfect match.</p>
+    </section>
+
+    <section class="filters">
+      <h3>Filter by Type or Rating:</h3>
+      <button onclick="renderListings('', 'Restaurant')">Restaurants</button>
+      <button onclick="renderListings('', 'Hotel')">Hotels</button>
+      <br><br>
+      <input type="text" id="search" placeholder="Search by name...">
+      <select id="type-filter">
+        <option value="">All Types</option>
+        <option value="Restaurant">Restaurant</option>
+        <option value="Hotel">Hotel</option>
+      </select>
+      <select id="stars-filter">
+        <option value="">All Stars</option>
+        <option value="5">5 Stars</option>
+        <option value="4">4 Stars</option>
+        <option value="3">3 Stars</option>
+      </select>
+    </section>
+
+    <section id="listings">
+      <div id="cards-container" class="cards-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div>© 2025 Banza Kiongo Seraphin</div>
+  </footer>
+
+  <script src="scripts/visit.js" defer></script>
+</body>
+</html>
